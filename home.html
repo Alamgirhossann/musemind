@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Column Layout with CSS Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- navbar section -->
+
+    <nav class="navbar">
+        <div class="navbar-header">
+            <div class="navbar-logo">
+                <img class="loro" src="./images/Group 1.png" alt="">
+            </div>
+            <div class="navbar-toggle" id="navbarToggle">
+                &#9776;
+            </div>
+        </div>
+        <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-center">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="navbar-right">
+                <a href="#">Login</a>
+                <button class="navbar-button">Try it free</button>
+            </div>
+        </div>
+        <div class="navbar-menu1" id="navbarMenu1">
+            <div>
+                <div>
+                    <a href="#" style="display: block;">Home</a>
+                    <a href="#" style="display: block;">About</a>
+                    <a href="#" style="display: block;">Services</a>
+                    <a href="#" style="display: block;">Contact</a>
+                </div>
+                <div style="display:flex;justify-content:  center;">
+                    <div>
+                        <a href="#" style="display: block;">Login</a>
+                        <button class="navbar-button" style="display: block;">Try it free</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <div class="hero-banner">
+        <div class="hero-section">
+            <div class="hero-child">
+                <div style="text-align: center;">
+                    <h2 class="primary-text">The Best <br> Personal <span style="color: #B97FE6;"> Ai
+                            <br>
+                            Writing</span> Tool</h2>
+                    <p>Save hours every day. The world's first AI writer that <br> works across
+                        your Mac, iPhone, and iPad.
+                    </p>
+                    <button style="background: #391952; border-radius: 30px; color: white; padding: 10px 20px;">Get
+                        Started
+                    </button>
+                </div>
+
+            </div>
+            <div class="hero-review">
+                <div style="padding: 10px 0;">
+                    <img src="./images/Frame 1171276045.png" alt="">
+                    <div>
+                        <p style="display: flex; gap: 5px; align-items: center;margin: 16px 0 0 0;">4.8 App Store
+                            <span><img src="./images/content (1).png" alt=""></span>
+                        </p>
+                    </div>
+                </div>
+                <div style="padding: 10px 0;">
+                    <img src="./images/Frame 1171276045.png" alt="">
+                    <div>
+                        <p style="display: flex; gap: 5px; align-items: center; margin: 16px 0 0 0;">4.6 App Store
+                            <span><img src="./images/play Icon.png" alt=""></span>
+                        </p>
+                    </div>
+                </div>
+                <div class="satisfied-client">
+                    <p style="margin: 0;">+70000 Client satisfied </p>
+                    <div>
+                        <p style="display: flex; gap: 5px; align-items: center; color: #B97FE6; margin: 23px 0 0 0;">Get
+                            Started
+                            <span style="color: #B97FE6;"><img src="./images/Icon (1).png" alt=""></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- pwrite improve section -->
+
+    <div class="writing-improve-section">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h2 class="secondary-text">How <span style="color: #B97FE6;">
+                        Pwrite</span> Can Improve
+                    <br> Your Writing
+                </h2>
+                <p>Save hours every day. The world's first AI writer that works <br> across your Mac, iPhone, and iPad.
+                </p>
+                <button style="background: #391952; border-radius: 30px; color: white; padding: 10px 20px;">Get Started
+                </button>
+            </div>
+            <img class="improve-writing-img"
+                src="./images/Vector_cartoon_hand_holds_pencil_isolated_on_white_background_ 1.png" alt="">
+        </div>
+
+        <div class="must-tools">
+
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Group 1171275649.png" alt="">
+                <h3>AI-powered language suggestion and correction</h3>
+                <p>Save hours every day. The world's first AI writer that works across your Mac, iPhone, and iPad.</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Group 1171275649 (1).png" alt="">
+                <h3>Automatic grammar and spelling checking</h3>
+                <p>Save hours every day. The world's first AI writer that works across your Mac, iPhone, and iPad.</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Group 1171275649 (2).png" alt="">
+                <h3>Intelligent content generation and rephrasing</h3>
+                <p>Save hours every day. The world's first AI writer that works across your Mac, iPhone, and iPad.</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Group 1171275649 (3).png" alt="">
+                <h3>Advanced browser integration</h3>
+                <p>Save hours every day. The world's first AI writer that works across your Mac, iPhone, and iPad.</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Group 1171275649 (4).png" alt="">
+                <h3>Auto summarization</h3>
+                <p>Save hours every day. The world's first AI writer that works across your Mac, iPhone, and iPad.</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Group 1171275649 (5).png" alt="">
+                <h3>Automatically detects tone</h3>
+                <p>Save hours every day. The world's first AI writer that works across your Mac, iPhone, and iPad.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Email writing section -->
+
+    <div class="container">
+        <div class="column">
+            <img class="brows-img" src="./images/Group 1171275656.png" alt="">
+        </div>
+        <div class="column">
+            <div>
+                <h2 class="secondary-text">E-mail <span style="color: #B97FE6;">
+                        Writing</span> <br> Extension</h2>
+                <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and iPad.
+                </p>
+                <button style="background: #391952; border-radius: 30px; color: white; padding: 10px 20px;">Request For
+                    Free
+                    <span><img src="./images/Icon.png" alt="" style="width: 10px; height: 10px;"></span></button>
+            </div>
+
+        </div>
+    </div>
+    <!-- Expand text section -->
+
+    <div class="container">
+        <div class="column column1">
+            <div>
+                <h2 class="secondary-text"><span style="color: #216EED;">
+                        Rewrite</span> <br>Expand or <br>Shorten texts </h2>
+                <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and iPad.
+                </p>
+                <button style="background: #391952; border-radius: 30px; color: white; padding: 10px 20px;">Request For
+                    Free
+                    <span><img src="./images/Icon.png" alt="" style="width: 10px; height: 10px;"></span></button>
+            </div>
+
+        </div>
+        <div class="column column2">
+            <img class="brows-img" src="./images/Group 1171275654.png" alt="">
+        </div>
+
+    </div>
+    <!-- pwrite tools section -->
+
+    <div class="tools-section">
+        <div class="" style="text-align: center;">
+            <h2 class="secondary-text">How to use <span style="color: #B97FE6;">
+                    Pwrite</span> tools.</h2>
+            <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and iPad.</p>
+        </div>
+
+        <div style="padding-top: 20px;">
+            <div class="tools">
+
+                <div class="tools-column">
+                    <h3 class="tools-sub-title" style=" color: #B97FE6;">1</h3>
+                    <h3 class="tools-sub-title" style=" color: #391952;">Input text with
+                        <br>
+                        typing tone
+                    </h3>
+                    <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and
+                        iPad.</p>
+                </div>
+                <div class="tools-column">
+                    <img class="tools-img" src="./images/Group 1171275659.png" alt="">
+                </div>
+            </div>
+            <div class="tools" style="background-color: #FAEAE6; border-radius: 10px; margin-bottom: 25px;">
+
+                <div class="tools-column">
+                    <h3 class="tools-sub-title" style="color: #EBA999;">2</h3>
+                    <h3 class="tools-sub-title" style="color: #391952;">Customize
+                        <br> your copy
+                    </h3>
+                    <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and
+                        iPad.</p>
+                </div>
+                <div class="tools-column">
+                    <img class="tools-img" src="./images/Frame 48095593.png" alt="">
+                </div>
+            </div>
+            <div class="tools" style="background-color: #E5EFFF; border-radius: 10px; margin-bottom: 25px;">
+
+                <div class="tools-column">
+                    <h3 class="tools-sub-title" style="color: #7AADFF">3</h3>
+                    <h3 class="tools-sub-title" style=" color: #391952;">Rewrite Shorten or <br> Expand Your Text
+                    </h3>
+                    <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and
+                        iPad.</p>
+                </div>
+                <div class="tools-column">
+                    <img class="tools-img" src="./images/Rewritte.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- must have tools section -->
+
+    <div class="must-tools-section">
+        <h2 class="secondary-text">Enhance your must-have <span style="color: #B97FE6;">
+                Tools</span> </h2>
+        <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and iPad.</p>
+        <div class="must-tools">
+
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Company logo.png" alt="">
+                <h3>Gmsil</h3>
+                <p>AI improves email communication with automated writing and error detection
+                </p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Company logo (1).png" alt="">
+                <h3>Slack</h3>
+                <p>AI enhances team collaboration with automated message generation and response suggestions.</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/Company logo (2).png" alt="">
+                <h3>Notion</h3>
+                <p>AI automates data analysis and summarization, aiding in note-taking, project management</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/brand logo.png" alt="">
+                <h3>Clickup</h3>
+                <p>AI automates data analysis and summarization, aiding in note-taking, project management</p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/brand logo (1).png" alt="">
+                <h3>Doc</h3>
+                <p>AI improves email communication with automated writing and error detection
+                </p>
+
+            </div>
+            <div class="must-tools-column">
+                <img class="must-tools-img" src="./images/brand logo (2).png" alt="">
+                <h3>Facebook</h3>
+                <p>AI enhances team collaboration with automated message generation and response suggestions.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- power everything section -->
+    <div class="power-everything-section">
+        <h2 class="secondary-text">More power to everything
+            <br> you <span style="color: #B97FE6;">
+                write.</span>
+        </h2>
+        <p>Save hours every day. The world's first AI writer that <br> works across your Mac, iPhone, and iPad.</p>
+        <div class="power" style="text-align: center;">
+
+            <div class="power-column" style="background-color: #F8F1FC;">
+                <img class=" power-img" src="./images/Group (7).png" alt="">
+                <h3>Emails</h3>
+                <p>AI creates clear and concise emails, saving time and improving communication.</p>
+
+            </div>
+            <div class="power-column" style="background-color: #E5EFFF; ">
+                <img class=" power-img" src="./images/Group (8).png" alt="">
+                <h3>Spelling & Grammar</h3>
+                <p>AI corrects spelling and grammar errors, enhancing overall content quality.</p>
+
+            </div>
+            <div class="power-column" style="background-color: #FAEAE6        ;">
+                <img class=" power-img" src="./images/Group 1171275665.png" alt="">
+                <h3>Blogs</h3>
+                <p>AI generates engaging blog posts quickly and efficiently.
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--carousel section right-->
+    <div style="background: #F9F7F5;border-radius: 10px;padding: 50px 0; color: #2c1d39;">
+        <h2 class="secondary-text" style="text-align: center;">Trusted by over <span style="color: #B97FE6;">
+                1M+ users</span> </h2>
+        <div class="carousel-right">
+            <div class="carousel-track-right">
+                <div class="carousel-slide-right">
+                    <div style="background: white; padding: 15px; border-radius: 10px;height: 210px;">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1.png" alt=""
+                                        style="height: 30px; width: 30px; border-radius: 50%;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Alan Border</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I'm not a native English speaker, so I always struggled with writing in English. But after
+                            using a personal AI writing tool, my writing has improved dramatically. The tool helped me
+                            with grammar, vocabulary, and even phrasing.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px; border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (1).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Wilson</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>As someone who struggles with writer's block, I was amazed at how quickly a personal AI
+                            writing tool helped me get unstuck. With just a few prompts, I was able to generate ideas
+                            and start writing.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (2).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Leslie Alexander</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I was skeptical at first, but after using a personal AI writing tool, I was blown away by how
+                            much it helped me improve my writing. The tool made suggestions on grammar and syntax that I
+                            never would have thought of myself. I highly recommend it."</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (3).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Jerry</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I never thought I could write poetry, but after using a personal AI writing tool, I
+                            discovered that I have a talent for it. The tool helped me with rhyme and meter, and I was
+                            able to create some beautiful pieces.</p>
+                    </div>
+                </div>
+                <!-- Duplicate slides for infinite effect -->
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (4).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Robert Fox</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>As a professional writer, I'm always looking for ways to improve my craft. Using a personal
+                            AI writing tool has been a game-changer for me. The tool helps me catch mistakes I would
+                            have missed otherwise.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (5).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Nguyen</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I used a personal AI writing tool to help me with a research paper, and it saved me so much
+                            time. The tool helped me find relevant sources and even suggested ways to structure my
+                            paper.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (6).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Cooper</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I love using a personal AI writing tool for brainstorming. It's like having a writing partner
+                            who's always ready to help me generate new ideas.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-right">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1.png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Flores</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I'm not a native English speaker, so I always struggled with writing in English. But after
+                            using a personal AI writing tool, my writing has improved dramatically. The tool helped me
+                            with grammar, vocabulary, and even phrasing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--carousel section left-->
+
+
+        <div class="carousel-left" style="color: #2c1d39;">
+            <div class="carousel-track-left">
+                <div class="carousel-slide-left">
+                    <div style="background: white;padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (1).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Albart</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>As someone who struggles with writer's block, I was amazed at how quickly a personal AI
+                            writing tool helped me get unstuck. With just a few prompts, I was able to generate ideas
+                            and start writing.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (2).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Leslie Alexander</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I was skeptical at first, but after using a personal AI writing tool, I was blown away by how
+                            much it helped me improve my writing. The tool made suggestions on grammar and syntax that I
+                            never would have thought of myself. I highly recommend it."</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (3).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Nguyen</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I never thought I could write poetry, but after using a personal AI writing tool, I
+                            discovered that I have a talent for it. The tool helped me with rhyme and meter, and I was
+                            able to create some beautiful pieces.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (4).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Bessi coper</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>As a professional writer, I'm always looking for ways to improve my craft. Using a personal
+                            AI writing tool has been a game-changer for me. The tool helps me catch mistakes I would
+                            have missed otherwise.</p>
+                    </div>
+                </div>
+                <!-- Duplicate slides for infinite effect -->
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (5).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Jacob</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I used a personal AI writing tool to help me with a research paper, and it saved me so much
+                            time. The tool helped me find relevant sources and even suggested ways to structure my
+                            paper.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (6).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Robart Fox</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I love using a personal AI writing tool for brainstorming. It's like having a writing partner
+                            who's always ready to help me generate new ideas.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1.png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Jerry Wilson</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>I'm not a native English speaker, so I always struggled with writing in English. But after
+                            using a personal AI writing tool, my writing has improved dramatically. The tool helped me
+                            with grammar, vocabulary, and even phrasing.</p>
+                    </div>
+                </div>
+                <div class="carousel-slide-left">
+                    <div style="background: white; padding: 15px;border-radius: 10px;height: 210px">
+                        <div style="display: flex; justify-content: space-between;align-items: center;">
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                <div>
+                                    <img src="./images/Ellipse 1 (1).png" alt="" style="height: 30px; width: 30px;">
+                                </div>
+                                <div>
+                                    <p style="margin: 5px 0;">Albert Flores</p>
+                                    <p style="margin: 5px 0;">UX Designer</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./images/u_twitter.png" alt="" style="height: 20px; width: 20px;">
+                            </div>
+                        </div>
+                        <p>As someone who struggles with writer's block, I was amazed at how quickly a personal AI
+                            writing tool helped me get unstuck. With just a few prompts, I was able to generate ideas
+                            and start writing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--FAQ section-->
+    <div class="accordion-section">
+        <h2 class="secondary-text" style="text-align: center; 
+        ">Frequently asked <span style="color: #B97FE6;">
+                Questions</span> </h2>
+
+        <div class="accordion">
+            <div class="accordion-item">
+                <button class="accordion-header">What is AI writing?</button>
+                <div class="accordion-content">
+                    <span class="accordion-close">-</span>
+                    <p style="font-size: 16px; font-weight: bold;">Can AI writing replace human writers?</p>
+                    <p>While AI writing can assist in the content creation process, it is unlikely to fully replace
+                        human writers. AI-generated content may lack the creativity and emotional intelligence that
+                        human writers can bring to the table.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How does AI writing work?</button>
+                <div class="accordion-content">
+                    <span class="accordion-close">-</span>
+                    <p>While AI writing can assist in the content creation process, it is unlikely to fully replace
+                        human writers. AI-generated content may lack the creativity and emotional intelligence that
+                        human writers can bring to the table.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Is AI writing ethical?</button>
+                <div class="accordion-content">
+                    <span class="accordion-close">-</span>
+                    <p>While AI writing can assist in the content creation process, it is unlikely to fully replace
+                        human writers. AI-generated content may lack the creativity and emotional intelligence that
+                        human writers can bring to the table.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">What are the benefits of AI writing?</button>
+                <div class="accordion-content">
+                    <span class="accordion-close">-</span>
+                    <p>While AI writing can assist in the content creation process, it is unlikely to fully replace
+                        human writers. AI-generated content may lack the creativity and emotional intelligence that
+                        human writers can bring to the table.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--experience with ai section-->
+    <div class="experience-div">
+        <div class="purple-div">
+            <h2 class="secondary-text" style="color: #391952;">Experience the power of <br> fast writing with AI</h2>
+            <div class="form-container">
+                <form class="responsive-form">
+                    <input type="text" placeholder="Enter Email Address">
+                    <button type="submit">Get Started</button>
+                </form>
+            </div>
+
+            <div class="experience-feature-section">
+                <div class="" style="color: #391952;  display: flex; align-items: center; gap: 5px;">
+                    <span>
+                        <img src="./images/content.png" alt="" style="width: 20px; height: 20px;">
+                    </span>
+                    10 Days Free Trial
+                </div>
+                <div class="" style="color: #391952;  display: flex; align-items: center; gap: 5px;">
+                    <span>
+                        <img src="./images/content.png" alt="" style="width: 20px; height: 20px;">
+                    </span>
+                    No Credit card needed
+                </div>
+                <div class="" style="color: #391952; display: flex; align-items: center; gap: 5px;"> <span>
+                        <img src="./images/content.png" alt="" style="width: 20px; height: 20px;">
+                    </span>
+                    Cancel anytime</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--footer section-->
+    <div class="footer">
+        <div>
+            <div>
+
+                <div class="footer-social-icon">
+                    <div class="footer-navigation-column">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #391952; padding-bottom: 15px;">
+                            <span style="display: flex; align-items: center; gap: 5px;"> <img class=""
+                                    src="./images/u_twitter (1).png" alt="">Twitter</span>
+                            <img src="./images/Icon (1).png" alt="">
+                        </div>
+
+
+
+                    </div>
+                    <div class="footer-navigation-column">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #391952; padding-bottom: 15px;">
+                            <span style="display: flex; align-items: center; gap: 5px;"> <img class=""
+                                    src="./images/LinkedIn.png" alt="">LinkedIn</span>
+                            <img src="./images/Icon (1).png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="footer-navigation-column">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #391952; padding-bottom: 15px;">
+                            <span style="display: flex; align-items: center; gap: 5px;"> <img class=""
+                                    src="./images/slack.png" alt="">Slack</span>
+                            <img src="./images/Icon (1).png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="footer-navigation-column">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center;  padding-bottom: 15px;">
+                            <span style="display: flex; align-items: center; gap: 5px;"> <img class=""
+                                    src="./images/blogger.png" alt="">Community</span>
+                            <img src="./images/Icon (1).png" alt="">
+                        </div>
+
+                    </div>
+                    <div class="footer-navigation-column">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 15px;">
+                            <span style="display: flex; align-items: center; gap: 5px;"> <img class=""
+                                    src="./images/blogger.png" alt="">Articles</span>
+                            <img src="./images/Icon (1).png" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div>
+
+                <div class="footer-navigation">
+
+
+
+                    <div class="footer-navigation-column">
+                        <p style="font-weight: bold;">Company</p>
+                        <p>About us</p>
+                        <p>Pricing</p>
+                        <p>Blog</p>
+                        <p>Careers</p>
+                        <p>Press</p>
+
+                    </div>
+                    <div class="footer-navigation-column">
+                        <p style="font-weight: bold;">Solutions</p>
+                        <p>Project management</p>
+                        <p>Startup</p>
+                        <p>Marketing</p>
+                        <p>Education</p>
+                        <p>Knowledge management</p>
+
+                    </div>
+                    <div class="footer-navigation-column">
+                        <p style="font-weight: bold;">Try Pwrite</p>
+                        <p>Packs</p>
+                        <p>API</p>
+                        <p>Pricing</p>
+                        <p>Request a demo </p>
+
+                    </div>
+                    <div class="footer-navigation-column">
+                        <p style="font-weight: bold;">Resources</p>
+                        <p>Help center</p>
+                        <p>Contact support</p>
+                        <p>Community</p>
+                        <p>Android App</p>
+                        <p>iOS App</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copywrite">
+                <div class="">
+                    <img style="height: 25px; width: 100%;" src="./images/Group 1.png" alt="">
+
+                </div>
+                <div class="">
+                    <p>&copy;Copyright 2023</p>
+                </div>
+                <div style="">
+                    <p>Privacy Policy</p>
+                </div>
+                <div>
+                    <p>Cookie Dicliation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./scripts.js"></script>
+
+
+</body>
+
+</html>
