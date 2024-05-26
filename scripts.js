@@ -31,15 +31,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   const toggleButton = document.getElementById("navbarToggle");
-//   const navbarMenu = document.getElementById("navbarMenu1");
-
-//   toggleButton.addEventListener("click", () => {
-//     navbarMenu.classList.toggle("show");
-//   });
-// });
-
 document.addEventListener("DOMContentLoaded", () => {
   const navbarToggle = document.getElementById("navbarToggle");
   const navbarMenu1 = document.getElementById("navbarMenu1");
